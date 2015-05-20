@@ -1,0 +1,15 @@
+<head>
+  <title>counts</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click to increase the document count by 100</button>
+  <p>There are {{counter.count}} total documents.</p>
+  <p>There are {{localCounter}} documents published.</p>
+</template>
